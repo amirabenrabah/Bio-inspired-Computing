@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="86.0" prefWidth="916.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ItemController">
+   <children>
+      
+      <Label fx:id="File_name_label" layoutX="14.0" layoutY="6.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="20.0" prefWidth="761.0" text="File Name:">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+    
+      <Label fx:id="Result_label" layoutX="14.0" layoutY="23.0" maxHeight="200.0" maxWidth="1035.0" prefHeight="20.0" prefWidth="901.0" text="Result:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      
+      <Label fx:id="Instance_label" layoutX="14.0" layoutY="39.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="20.0" prefWidth="831.0" text="Instance:">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+    
+      <Label fx:id="Time_Label" layoutX="14.0" layoutY="55.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="20.0" prefWidth="761.0" text="Time:">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <Pane layoutY="79.0" prefHeight="7.0" prefWidth="916.0" style="-fx-background-color: #0f9d58ff;" />
+   
+   </children>
+</AnchorPane>
